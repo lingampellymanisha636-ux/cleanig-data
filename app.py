@@ -6,7 +6,7 @@ from utils import load_data, clean_data
 st.title("Data Cleaning App")
 
 # Input box to paste the file path
-file_path = st.text_input("C:\\Users\\linga\\Desktop\\data cleaning\\netflix_titles.csv")
+file_path = st.text_input("C:\\Users\linga\\Desktop\\data cleaning\\netflix_titles.csv")
 
 # Button to trigger loading
 if st.button("Load and Clean Data"):
